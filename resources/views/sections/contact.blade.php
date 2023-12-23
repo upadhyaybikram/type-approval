@@ -4,7 +4,7 @@
       <!--  Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Contact</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+          <p>Get in touch with us for any inquiries or assistance</p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -18,8 +18,8 @@
                 <div class="info-item" data-aos="fade" data-aos-delay="200">
                   <i class="bi bi-geo-alt"></i>
                   <h3>Address</h3>
-                  <p>A108 Adam Street</p>
-                  <p>New York, NY 535022</p>
+                  <p>Waling-01,Syangja</p>
+                  <p>Gandaki Province,Nepal</p>
                 </div>
               </div><!-- End Info Item -->
 
@@ -27,8 +27,8 @@
                 <div class="info-item" data-aos="fade" data-aos-delay="300">
                   <i class="bi bi-telephone"></i>
                   <h3>Call Us</h3>
-                  <p>+1 5589 55488 55</p>
-                  <p>+1 6678 254445 41</p>
+                  <p>+977 9846719523</p>
+                  <p>+977 9846073690</p>
                 </div>
               </div><!-- End Info Item -->
 
@@ -36,8 +36,7 @@
                 <div class="info-item" data-aos="fade" data-aos-delay="400">
                   <i class="bi bi-envelope"></i>
                   <h3>Email Us</h3>
-                  <p>info@example.com</p>
-                  <p>contact@example.com</p>
+                  <p>typeapprovalanditsolutions@gmail.com</p>
                 </div>
               </div><!-- End Info Item -->
 
@@ -55,7 +54,7 @@
           </div>
 
           <div class="col-lg-6">
-        
+
             <form action="{{ route('guest.store') }}" method="post">
                 @csrf
               <div class="row gy-4">
@@ -77,12 +76,13 @@
                 </div>
 
                 <div class="col-md-12 text-center">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
+{{--                  <div class="loading">Loading</div>--}}
+{{--                  <div class="error-message"></div>--}}
+{{--                  <div class="sent-message">Your message has been sent. Thank you!</div>--}}
+                    <button type="submit" class="btn btn-primary">Send Message</button>
 
-                  <button type="submit">Send Message</button>
                 </div>
+
 
               </div>
             </form>
