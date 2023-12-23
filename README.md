@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://path-to-your-logo.png" width="400" alt="Type Approval and IT Solutions Logo">
+    <img src="public//assets/img/cta-bg.jpg" width="400" alt="Type Approval and IT Solutions Logo">
 </p>
 
 <p align="center">
