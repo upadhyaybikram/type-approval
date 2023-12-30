@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Home - Append Bootstrap Temlate</title>
+  <title>Type Approval and IT Solutions</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -43,11 +43,10 @@
   <header id="header" class="header fixed-top d-flex align-items-center">
     <div class="container-fluid d-flex align-items-center justify-content-between">
 
-      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+      <a href="{{ route('about') }}" class="logo d-flex align-items-center me-auto me-xl-0">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
         <h1>Type Approval and IT Solutions</h1>
-        <span>.</span>
       </a>
 
       <!-- Nav Menu -->
@@ -98,13 +97,13 @@
     @include('sections.stats')
     @include('sections.services')
     @include('sections.features')
-    @include('sections.portfolio')
-    @include('sections.pricing')
-    @include('sections.faq')
+{{--    @include('sections.portfolio')--}}
+{{--    @include('sections.pricing')--}}
+{{--    @include('sections.faq')--}}
     @include('sections.team')
-    @include('sections.call-to-action')
-    @include('sections.testimonials')
-    @include('sections.recent-posts')
+{{--    @include('sections.call-to-action')--}}
+{{--    @include('sections.testimonials')--}}
+{{--    @include('sections.recent-posts')--}}
     @include('sections.contact')
   </main>
 
@@ -117,7 +116,8 @@
           <a href="index.html" class="logo d-flex align-items-center">
             <span>Type Approval</span>
           </a>
-          <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+          <p>We are a leading type approval certificate provider in Nepal. Along with type approval certification, we have a diverse team experienced in web design and development as well.
+              Please submit the form with your enquiries, one of our member will assist you further.</p>
           <div class="social-links d-flex mt-4">
             <a href=""><i class="bi bi-twitter"></i></a>
             <a href=""><i class="bi bi-facebook"></i></a>
@@ -166,7 +166,7 @@
         <!-- You can delete the links only if you've purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        Designed and developed by <a href="https://www.linkedin.com/in/bikram-upadhyay-0a670b94/" target="_blank">Bikram Upadhyay</a>
       </div>
     </div>
 
