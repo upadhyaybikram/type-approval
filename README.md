@@ -32,3 +32,15 @@ php artisan key:generate
 # Start the development server
 php artisan serve
 
+##Screenshots
+
+![WhatsApp Image 2024-01-16 at 10 22 01](https://github.com/upadhyaybikram/type-approval/assets/43924986/9497d4a1-6deb-4766-8872-c2c19ca13f26)
+
+
+<img width="1440" alt="Screenshot 2024-01-15 at 6 19 39 pm" src="https://github.com/upadhyaybikram/type-approval/assets/43924986/d3f02fd6-ddb0-4a78-a9d5-706f31ddff67">
+
+
+<img width="1440" alt="Screenshot 2024-01-15 at 6 20 05 pm" src="https://github.com/upadhyaybikram/type-approval/assets/43924986/8538ea59-e2cf-4457-96c4-1465304289b8">
+
+
+
