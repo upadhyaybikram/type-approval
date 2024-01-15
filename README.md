@@ -32,7 +32,3 @@ php artisan key:generate
 # Start the development server
 php artisan serve
 
-## Snapshots
-<img width="1440" alt="Screenshot 2024-01-15 at 6 19 39 pm" src="https://github.com/upadhyaybikram/type-approval/assets/43924986/74cf8755-3d5a-45a4-8eb1-6b2881a04714">
-<img width="1440" alt="Screenshot 2024-01-15 at 6 20 05 pm" src="https://github.com/upadhyaybikram/type-approval/assets/43924986/3dbd028c-4ac7-4b80-8e7e-25fedbe4b529">
-
