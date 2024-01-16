@@ -1,4 +1,6 @@
+
 # Laravel Company Landing Page
+
 
 This project was created using [Laravel](https://laravel.com/), a powerful PHP framework for web artisans. The Laravel Company Landing Page repository provides a straightforward and customizable Laravel application designed for creating an elegant landing page for your company.
 
