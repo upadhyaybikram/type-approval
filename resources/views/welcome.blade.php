@@ -183,7 +183,25 @@
     <div></div>
   </div>
 
+  <!-- Success Modal -->
+  <div class="modal fade" id="successModal" tabindex="-1" aria-labelledby="successModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h5 class="modal-title" id="successModalLabel">Thank You!</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                  <p>Your registration has been successful. We will get back to you soon.</p>
+              </div>
+          </div>
+      </div>
+  </div>
+
   <!-- Vendor JS Files -->
+  <!-- jQuery from CDN -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"></script>
+
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
@@ -193,9 +211,15 @@
   <script src="assets/vendor/php-email-form/validate.js"></script>
 
   <!-- Template Main JS File -->
-  <script src="assets/js/main.js">
+  <script src="assets/js/main.js"></script>
 
-
+  <!-- Script to trigger the success modal if a success flash message exists -->
+  <script>
+      // Ensure jQuery is ready
+      setTimeout(function () {
+          $(document).ready(function () {
+          ('#alert-success, #alert-danger').fadeOut('slow');
+      }, 5000);
   </script>
 
 </body>

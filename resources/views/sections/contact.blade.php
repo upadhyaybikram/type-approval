@@ -54,6 +54,16 @@
           </div>
 
           <div class="col-lg-6">
+              @if(session('success'))
+                  <div class="alert alert-success">
+                      {{ session('success') }}
+                  </div>
+              @elseif(session('error'))
+                  <div class="alert alert-danger">
+                      {{ session('error') }}
+                  </div>
+              @endif
+
 
             <form action="{{ route('guest.store') }}" method="post">
                 @csrf
@@ -87,6 +97,7 @@
               </div>
             </form>
           </div><!-- End Contact Form -->
+
 
         </div>
 
