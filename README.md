@@ -1,56 +1,48 @@
-<p align="center">
-    <img src="public//assets/img/cta-bg.jpg" width="400" alt="Type Approval and IT Solutions Logo">
-</p>
 
-<p align="center">
-    <!-- Add badges or shields related to your organization or projects -->
-</p>
+# Laravel Company Landing Page
 
-## About Type Approval and IT Solutions
 
-Welcome to Type Approval and IT Solutions, where we blend regulatory compliance and technology innovation! 🚀
+This project was created using [Laravel](https://laravel.com/), a powerful PHP framework for web artisans. The Laravel Company Landing Page repository provides a straightforward and customizable Laravel application designed for creating an elegant landing page for your company.
 
-**Our Mission:**
-At Type Approval and IT Solutions, our mission is to simplify the type approval process for radio telecommunication devices globally. Alongside our dedicated team of smart full-stack developers, we strive to provide cutting-edge design and development solutions for your websites.
+## Features
 
-🔧 **Type Approval Services:**
-Navigating the intricacies of type approval for 2.4, 5.1, and 5.8 GHz low power devices and radio devices is our forte. We can act as your local representative in Nepal, facilitating the approval process and providing exemption letters for radio devices operating within a 15-meter range.
+- **Bootstraped Laravel Application:** Utilizes the Laravel framework for scalable and efficient development.
+- **Sleek Landing Page:** A clean and modern landing page tailored to represent your company professionally.
+- **Easy Customization:** Designed with simplicity in mind, making it effortless to customize and adapt to your company's branding.
 
-💼 **Global Network:**
-With a strong network covering India, Bahrain, the Middle East, Singapore, South East Asia, and Europe, we are your trusted partner for international compliance. We are actively expanding our reach globally, offering seamless services to clients around the world.
+## Getting Started
 
-🤝 **Why Choose Type Approval and IT Solutions:**
-- **Expertise:** Leaders in type approval processes.
-- **Local Representation:** We act as your local representative in Nepal.
-- **Exemption Letters:** Facilitating compliance for devices within a 15-meter range.
-- **Global Network:** Serving clients across India, Bahrain, the Middle East, Singapore, South East Asia, Europe, and beyond.
-- **Reliability:** Trust us to deliver, every time.
+Follow these steps to set up the company landing page locally:
 
-📫 **Contact Us:**
-Ready to embark on a journey of compliance and innovation? Get in touch with us for all your type approval and IT solution needs.
+```bash
+# Clone the repository
+git clone https://github.com/upadhyaybikram/type-approval.git
 
-<!-- 🌐 Website: [TypeApprovalAndITSolutions.com](https://www.typeapprovalanditsolutions.com) -->
-🌐 Website: Coming Soon 
+# Navigate to the project directory
+cd laravel-company-landing
 
-📧 Email: typeapprovalitsolutions@gmail.com
+# Install PHP dependencies
+composer install
 
-Let's build a compliant and connected future together! 🌟
+# Configure environment variables
+cp .env.example .env
+# Modify .env file with your configuration
 
----
+# Generate application key
+php artisan key:generate
 
-## Services and Products
+# Start the development server
+php artisan serve
 
-### Type Approval Services
+##Screenshots
 
-- **Streamlined Process:** We simplify the type approval process, ensuring your radio telecommunication devices meet global standards.
-- **Local Representation:** Act as your local representative for type approval in Nepal.
-- **Exemption Letters:** Provide letters of exemption for radio devices within a 15-meter range.
+![WhatsApp Image 2024-01-16 at 10 22 01](https://github.com/upadhyaybikram/type-approval/assets/43924986/9497d4a1-6deb-4766-8872-c2c19ca13f26)
 
-### IT Solutions
 
-- **Web Design:** Engage your audience with modern, responsive, and visually appealing websites.
-- **Full-Stack Development:** Leverage our smart full-stack developers to build robust and scalable solutions.
+<img width="1440" alt="Screenshot 2024-01-15 at 6 19 39 pm" src="https://github.com/upadhyaybikram/type-approval/assets/43924986/d3f02fd6-ddb0-4a78-a9d5-706f31ddff67">
 
----
 
-**Type Approval and IT Solutions** – Innovation, Compliance, Excellence.
+<img width="1440" alt="Screenshot 2024-01-15 at 6 20 05 pm" src="https://github.com/upadhyaybikram/type-approval/assets/43924986/8538ea59-e2cf-4457-96c4-1465304289b8">
+
+
+
