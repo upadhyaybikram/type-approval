@@ -96,7 +96,7 @@
     @include('sections.about')
     @include('sections.stats')
     @include('sections.services')
-    @include('sections.features')
+{{--    @include('sections.features')--}}
 {{--    @include('sections.portfolio')--}}
 {{--    @include('sections.pricing')--}}
 {{--    @include('sections.faq')--}}

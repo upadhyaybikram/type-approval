@@ -8,6 +8,8 @@
             <h3>About Us</h3>
             <h2>Type Approval of Radio Telecommunication Devices in Nepal </h2>
             <p>We provide assistance and act as a local representative for the  manufacturer who needs type approval certificate from Nepal Telecommunications Authority.</p>
+              <p>Local representative in Nepal shall apply on behalf of the manufacturer requesting Type Approval on
+                  its products.</p>
             <p>If you are looking for type approval of devices operating at 2.4, 5.1 and 5.8 GHz, then you are at the right place. </p>
 {{--            <a href="#" class="read-more"><span>Read More</span><i class="bi bi-arrow-right"></i></a>--}}
           </div>
