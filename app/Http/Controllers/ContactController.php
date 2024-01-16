@@ -17,7 +17,8 @@ class ContactController extends Controller
 
     public function store(Request $request)
     {
-      //  dd($request->input());
+     // dd($request->input(['name']));
+        $name = $request->input('name');
         try {
             $validatedData = $request->validate([
                 'name' => 'required|string|max:255',
@@ -34,8 +35,8 @@ class ContactController extends Controller
             $guest = new Guest($validatedData);
             $guest->save();
 
-            return redirect('/#contact')->with('success', 'Thank you! Your message has been submitted successfully.
-            One of our agent will contact you soon. ');
+            return redirect('/#contact')->with('success', "Dear $name,
+            we've received your message. Our team will review and get back to you shortly. Thank you!");
 
         } catch (ValidationException $e) {
             $errors = $e->validator->errors()->all();
