@@ -19,6 +19,7 @@ class ContactController extends Controller
     {
      // dd($request->input(['name']));
         $name = $request->input('name');
+        $email = $request->input('email');
         try {
             $validatedData = $request->validate([
                 'name' => 'required|string|max:255',
@@ -26,22 +27,34 @@ class ContactController extends Controller
                     'required',
                     'email',
                     'max:255',
-                    Rule::unique('guests', 'email')
+                  //  Rule::unique('guests', 'email')
                 ],
                 'subject' => 'required|string|max:255',
                 'message' => 'required|string',
             ]);
+            $existingGuest = Guest::where('email', $email)->first();
+            if ($existingGuest) {
+                // Update the existing user with the new data
+                $existingGuest->update([
+                    'name' => $validatedData['name'],
+                    'subject' => $validatedData['subject'],
+                    'message' => $validatedData['message'],
+                ]);
+            } else {
+                // Create a new user
+                $guest = new Guest($validatedData);
+                $guest->save();
+            }
 
-            $guest = new Guest($validatedData);
-            $guest->save();
+          //  $guest = new Guest($validatedData);
+        //    $guest->save();
 
             return redirect('/#contact')->with('success', "Dear $name,
             we've received your message. Our team will review and get back to you shortly. Thank you!");
 
         } catch (ValidationException $e) {
             $errors = $e->validator->errors()->all();
-           // return response()->json(['error' => $errors], 422);
-            return redirect('/#contact')->with('error', 'Oops! This user has already been registered');
+            return redirect('/#contact')->with('error', 'Oops! ' . implode(' ', $errors));
 
         }
     }
