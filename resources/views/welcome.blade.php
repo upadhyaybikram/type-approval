@@ -28,13 +28,6 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: Append
-  * Updated: Sep 18 2023 with Bootstrap v5.3.2
-  * Template URL: https://bootstrapmade.com/append-bootstrap-website-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body class="index-page" data-bs-spy="scroll" data-bs-target="#navmenu">
@@ -51,36 +44,13 @@
 
       <!-- Nav Menu -->
       <nav id="navmenu" class="navmenu">
-        <ul>
-        <li><a href="{{ route('home') }}">Home</a></li>
-        <li><a href="{{ route('about') }}">About</a></li>
-        <li><a href="{{ route('services') }}">Services</a></li>
-        <li><a href="{{ route('portfolio') }}">Portfolio</a></li>
-        <li><a href="{{ route('team') }}">Team</a></li>
-        <li><a href="{{ route('contact') }}">Contact</a></li>
-
-          <!-- <li><a href="index.html#portfolio">Portfolio</a></li>
-          <li><a href="index.html#team">Team</a></li> -->
-          <!-- <li><a href="blog.html">Blog</a></li> -->
-          <!-- <li class="dropdown has-dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down"></i></a>
-            <ul class="dd-box-shadow">
-              <li><a href="#">Dropdown 1</a></li>
-              <li class="dropdown has-dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down"></i></a>
-                <ul class="dd-box-shadow">
-                  <li><a href="#">Deep Dropdown 1</a></li>
-                  <li><a href="#">Deep Dropdown 2</a></li>
-                  <li><a href="#">Deep Dropdown 3</a></li>
-                  <li><a href="#">Deep Dropdown 4</a></li>
-                  <li><a href="#">Deep Dropdown 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Dropdown 2</a></li>
-              <li><a href="#">Dropdown 3</a></li>
-              <li><a href="#">Dropdown 4</a></li>
-            </ul>
-          </li> -->
-          <!-- <li><a href="index.html#contact">Contact</a></li> -->
-        </ul>
+          <ul>
+                <li><a href="{{ route('home') }}">Home</a></li>
+                <li><a href="{{ route('about') }}">About</a></li>
+                <li><a href="{{ route('services') }}">Services</a></li>
+                <li><a href="{{ route('team') }}">Team</a></li>
+                <li><a href="{{ route('contact') }}">Contact</a></li>
+          </ul>
 
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav><!-- End Nav Menu -->
@@ -96,14 +66,7 @@
     @include('sections.about')
     @include('sections.stats')
     @include('sections.services')
-{{--    @include('sections.features')--}}
-{{--    @include('sections.portfolio')--}}
-{{--    @include('sections.pricing')--}}
-{{--    @include('sections.faq')--}}
     @include('sections.team')
-{{--    @include('sections.call-to-action')--}}
-{{--    @include('sections.testimonials')--}}
-{{--    @include('sections.recent-posts')--}}
     @include('sections.contact')
   </main>
 
@@ -129,22 +92,23 @@
         <div class="col-lg-2 col-6 footer-links">
           <h4>Useful Links</h4>
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Terms of service</a></li>
-            <li><a href="#">Privacy policy</a></li>
+              <li><a href="{{ route('home') }}">Home</a></li>
+              <li><a href="{{ route('about') }}">About us</a></li>
+              <li><a href="{{ route('services') }}">Services</a></li>
+              <li><a href="{{ route('team') }}">Team</a></li>
+              <li><a href="{{ route('contact') }}">Contact</a></li>
           </ul>
         </div>
 
         <div class="col-lg-2 col-6 footer-links">
           <h4>Our Services</h4>
           <ul>
-            <li><a href="">Web Design</a></li>
-            <li><a href="">Web Development</a></li>
-            <li><a href="">Product Management</a></li>
-            <li><a href="">Marketing</a></li>
-            <li><a href="">Graphic Design</a></li>
+              <li>Type Approval Certification</li>
+              <li>Letter of Exemption</li>
+              <li>Web Design</li>
+              <li>Web Development</li>
+              <li>Software Design and Development</li>
+              <li>Research</li>
           </ul>
         </div>
 
@@ -153,7 +117,7 @@
           <p>Waling-01,Syangja</p>
           <p>Gandaki Province,Nepal</p>
           <p class="mt-4"><strong>Phone:</strong> <span>+977 9846719523</span></p>
-          <p><strong>Email:</strong> <span>typeapprovalanditsolutions@gmail.com</span></p>
+          <p><strong>Email:</strong> <span>info@typeapprovalsolutions.com</span></p>
         </div>
 
       </div>

@@ -36,7 +36,7 @@
                 <div class="info-item" data-aos="fade" data-aos-delay="400">
                   <i class="bi bi-envelope"></i>
                   <h3>Email Us</h3>
-                  <p>typeapprovalanditsolutions@gmail.com</p>
+                  <p>info@typeapprovalsolutions.com</p>
                 </div>
               </div><!-- End Info Item -->
 

@@ -4,7 +4,7 @@
       <!--  Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Services</h2>
-        <p>We have a dynamic team always ready to help the customers be it for type approval certificate or responsive web development</p>
+        <p>Empowering your goals with a dynamic team – your partner for seamless type approval certificates and innovative responsive web development solutions.</p>
       </div><!-- End Section Title -->
 
       <div class="container">
