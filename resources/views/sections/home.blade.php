@@ -9,9 +9,9 @@
       <p data-aos="fade-up" data-aos-delay="200">We are a team of experienced professional providing the solutions to your business requirements</p>
     </div>
     <div class="col-lg-5">
-      <form action="#" class="sign-up-form d-flex" data-aos="fade-up" data-aos-delay="300">
-        <input type="text" class="form-control" placeholder="Enter email address">
-        <input type="submit" class="btn btn-primary" value="Sign up">
+      <form id="contactForm" class="sign-up-form d-flex" data-aos="fade-up" data-aos-delay="300">
+        <input type="email" id="emailInput"  class="form-control" placeholder="Enter email address">
+        <input type="submit" id="contactUsBtn" class="btn btn-primary" value="Contact Us">
       </form>
     </div>
   </div>

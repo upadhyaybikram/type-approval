@@ -209,4 +209,20 @@ document.addEventListener('DOMContentLoaded', () => {
   }
   window.addEventListener('load', aosInit);
 
+
+
+    /**
+     * Event listener for the "Contact Us" form submission
+     */
+    const contactForm = document.getElementById('contactForm');
+    contactForm.addEventListener('submit', function(event) {
+        event.preventDefault();
+
+        // Get the user's email input
+        const userEmail = document.getElementById('emailInput').value;
+
+        // Create a mailto link with the recipient email address
+        // Open the default email client with the mailto link
+        window.location.href = 'mailto:info@typeapprovalsolutions.com?subject=Contact%20Us&body=' + userEmail;
+    });
 });

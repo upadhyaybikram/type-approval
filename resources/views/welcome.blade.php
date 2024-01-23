@@ -182,7 +182,8 @@
       // Ensure jQuery is ready
       setTimeout(function () {
           $(document).ready(function () {
-          ('#alert-success, #alert-danger').fadeOut('slow');
+              $('#alert-success, #alert-danger').fadeOut('slow');
+          });
       }, 5000);
   </script>
 
