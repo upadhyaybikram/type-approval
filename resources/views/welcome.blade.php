@@ -62,7 +62,6 @@
 
   <main id="main">
     @include('sections.home')
-    @include('sections.clients')
     @include('sections.about')
     @include('sections.stats')
     @include('sections.services')
@@ -76,7 +75,7 @@
     <div class="container footer-top">
       <div class="row gy-4">
         <div class="col-lg-5 col-md-12 footer-about">
-          <a href="index.html" class="logo d-flex align-items-center">
+          <a class="logo d-flex align-items-center">
             <span>Type Approval</span>
           </a>
           <p>We are a leading type approval certificate provider in Nepal. Along with type approval certification, we have a diverse team experienced in web design and development as well.
@@ -164,8 +163,7 @@
 
   <!-- Vendor JS Files -->
   <!-- jQuery from CDN -->
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"></script>
-
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>

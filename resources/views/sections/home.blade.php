@@ -10,7 +10,7 @@
     </div>
     <div class="col-lg-5">
       <form id="contactForm" class="sign-up-form d-flex" data-aos="fade-up" data-aos-delay="300">
-        <input type="email" id="emailInput"  class="form-control" placeholder="Enter email address">
+        <input type="email" id="emailInput" required class="form-control" placeholder="Enter email address">
         <input type="submit" id="contactUsBtn" class="btn btn-primary" value="Contact Us">
       </form>
     </div>
