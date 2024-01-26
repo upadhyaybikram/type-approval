@@ -17,7 +17,6 @@ class ContactController extends Controller
 
     public function store(Request $request)
     {
-     // dd($request->input(['name']));
         $name = $request->input('name');
         $email = $request->input('email');
         try {
@@ -27,14 +26,12 @@ class ContactController extends Controller
                     'required',
                     'email',
                     'max:255',
-                  //  Rule::unique('guests', 'email')
                 ],
                 'subject' => 'required|string|max:255',
                 'message' => 'required|string',
             ]);
             $existingGuest = Guest::where('email', $email)->first();
             if ($existingGuest) {
-                // Update the existing user with the new data
                 $existingGuest->update([
                     'name' => $validatedData['name'],
                     'subject' => $validatedData['subject'],
@@ -46,8 +43,6 @@ class ContactController extends Controller
                 $guest->save();
             }
 
-          //  $guest = new Guest($validatedData);
-        //    $guest->save();
 
             return redirect('/#contact')->with('success', "Dear $name,
             we've received your message. Our team will review and get back to you shortly. Thank you!");
