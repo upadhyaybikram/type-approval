@@ -41,5 +41,5 @@ Route::get('/#contact', function () {
     return view('welcome');
 })->name('contact');
 
-Route::get('/guest', [App\Http\Controllers\ContactController::class, 'index'])->name('guest.index');
-Route::post('/guest', [App\Http\Controllers\ContactController::class, 'store'])->name('guest.store');
+Route::get('/guest', [App\Http\Controllers\ContactController::class, 'index'])->name('guest.index')->secure();
+Route::post('/guest', [App\Http\Controllers\ContactController::class, 'store'])->name('guest.store')->secure();

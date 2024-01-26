@@ -65,7 +65,7 @@
               @endif
 
 
-            <form action="{{ route('guest.store') }}" method="post">
+            <form action="{{ secure_url(route('guest.store')) }}" method="post">
                 @csrf
               <div class="row gy-4">
 
