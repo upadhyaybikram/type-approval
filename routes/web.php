@@ -14,9 +14,6 @@ use Illuminate\Support\Facades\URL;
 |
 */
 
-if($this->app->environment('production')) {
-    URL::forceScheme('https');
-}
 
 Route::get('/', function () {
     return view('welcome');
