@@ -125,7 +125,7 @@
     <div class="container copyright text-center mt-4">
       <p>&copy; <span>Copyright</span> <strong class="px-1">Type Approval and IT Solutions</strong> <span>All Rights Reserved</span></p>
       <div class="credits">
-        Designed and developed by <a href="https://www.linkedin.com/in/bikram-upadhyay-0a670b94/" target="_blank">Bikram Upadhyay</a>
+        Designed and developed by <a href="https://upadhyaybikram.vercel.app/" target="_blank">Bikram Upadhyay</a>
       </div>
     </div>
 
